@@ -35,5 +35,7 @@
 build/
 .cache/
 
+compile_commands.json
+
 # Created images
 *.tga

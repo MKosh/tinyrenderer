@@ -10,7 +10,7 @@ target_link_libraries(test PUBLIC
 )
 
 ################################################################################
-add_executable(simple_lines simple_lines.cpp)
+add_executable(simple_lines simple_lines.cpp lines.cpp)
 target_include_directories(simple_lines PUBLIC
   ${CMAKE_SOURCE_DIR}/external/tgaimage
 )
